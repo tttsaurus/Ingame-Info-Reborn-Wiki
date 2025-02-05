@@ -3,7 +3,7 @@ title: Home Page
 ---
 
 <div align="center">
-    <img src="/logo.png" alt="Image" width="300"/>
+    <img src="/Ingame-Info-Reborn-Wiki/logo.png" alt="Image" width="300"/>
     <h1>InGame Info Reborn Wiki</h1>
 </div>
 
