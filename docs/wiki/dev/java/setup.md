@@ -1,5 +1,5 @@
 ---
-title: Setup
+title: Java Setup
 ---
 
 setup

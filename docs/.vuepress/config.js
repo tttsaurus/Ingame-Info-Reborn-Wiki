@@ -42,27 +42,24 @@ module.exports = {
                         },
                         {
                             title: 'For Devs',
-                            path: '/wiki/dev',
                             collapsible: true,
                             children: [
                                 {
                                     title: 'Java Dev',
-                                    path: '/wiki/dev/java',
                                     collapsible: true,
                                     children: [
                                         {
-                                            title: 'Setup',
+                                            title: 'Java Setup',
                                             path: '/wiki/dev/java/setup'
                                         }
                                     ]
                                 },
                                 {
                                     title: 'ZenScript Dev',
-                                    path: '/wiki/dev/zs',
                                     collapsible: true,
                                     children: [
                                         {
-                                            title: 'Setup',
+                                            title: 'ZenScript Setup',
                                             path: '/wiki/dev/zs/setup'
                                         }
                                     ]

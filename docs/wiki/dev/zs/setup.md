@@ -1,5 +1,5 @@
 ---
-title: Setup
+title: ZenScript Setup
 ---
 
 setup
