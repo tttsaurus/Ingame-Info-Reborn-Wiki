@@ -2,8 +2,11 @@ module.exports = {
     base: '/Ingame-Info-Reborn-Wiki/',
     title: 'Ingame Info Reborn Wiki',
     description: 'Wiki for Ingame-Info-Reborn',
+    theme: 'reco',
 
     themeConfig: {
+        modePicker: true,
+
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Wiki', link: '/wiki/' },

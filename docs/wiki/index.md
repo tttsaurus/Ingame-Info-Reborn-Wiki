@@ -1,2 +1,5 @@
+---
+title: Wiki Home
+---
 
 readme

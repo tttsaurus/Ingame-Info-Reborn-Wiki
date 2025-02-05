@@ -1,3 +1,5 @@
-# Home Page
+---
+title: Home
+---
 
 test
