@@ -1,5 +1,5 @@
 
-# [Wiki for Ingame-Info-Reborn](https://tttsaurus.github.io/Ingame-Info-Reborn-Wiki/)
+# Wiki for [Ingame-Info-Reborn](https://github.com/tttsaurus/Ingame-Info-Reborn)
 
 This wiki is generated with vuepress.
 
