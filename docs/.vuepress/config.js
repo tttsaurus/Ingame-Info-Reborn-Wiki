@@ -1,8 +1,17 @@
+
 module.exports = {
     base: '/Ingame-Info-Reborn-Wiki/',
     title: 'Ingame Info Reborn Wiki',
     description: 'Wiki for Ingame-Info-Reborn',
     theme: 'reco',
+
+    markdown: {
+        extendMarkdown: (md) => {
+            md.use(require('markdown-it-footnote'));
+            md.use(require('markdown-it-task-lists'));
+        },
+        lineNumbers: true
+    },
 
     themeConfig: {
         modePicker: true,
@@ -64,9 +73,5 @@ module.exports = {
                 }
             ]
         }
-    },
-
-    markdown: {
-        lineNumbers: true
     }
 };
