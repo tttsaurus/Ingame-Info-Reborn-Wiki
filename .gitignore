@@ -1,4 +1,4 @@
 /docs/.vuepress/dist
-/docs/.vuepress/
+/docs/.vuepress/.temp
 /.idea
 /node_modules
