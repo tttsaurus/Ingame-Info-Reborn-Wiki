@@ -1,0 +1,26 @@
+{
+  "name": "ingame-info-reborn-wiki",
+  "version": "1.0.0",
+  "description": "Wiki for Ingame-Info-Reborn",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "gh-pages -d docs/.vuepress/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tttsaurus/Ingame-Info-Reborn-Wiki.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tttsaurus/Ingame-Info-Reborn-Wiki/issues"
+  },
+  "homepage": "https://github.com/tttsaurus/Ingame-Info-Reborn-Wiki#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vuepress": "^0.14.11"
+  }
+}
