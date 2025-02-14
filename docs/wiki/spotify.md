@@ -47,4 +47,13 @@ spotify {
 
 ## IXML Config
 
-wip
+Open `./config/ingameinfo/spotify.ixml`
+
+```xml
+<Def debug = false>
+<VerticalGroup padding = {"top": 10, "bottom": 10, "left": 10, "right": 10} alignment = TOP_RIGHT pivot = TOP_RIGHT>
+    ...
+</Group>
+```
+
+Modify `alignment` and `pivot` to modify the overall layout.
