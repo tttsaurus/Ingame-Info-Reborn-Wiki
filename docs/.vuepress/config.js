@@ -10,7 +10,7 @@ module.exports = {
             md.use(require('markdown-it-footnote'));
             md.use(require('markdown-it-task-lists'));
         },
-        lineNumbers: true
+        lineNumbers: false
     },
 
     themeConfig: {
