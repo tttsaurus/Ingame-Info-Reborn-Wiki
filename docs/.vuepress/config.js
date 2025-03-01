@@ -41,6 +41,10 @@ module.exports = {
                             path: '/wiki/mvvm'
                         },
                         {
+                             title: 'IXML Specification',
+                             path: '/wiki/ixml'
+                        },
+                        {
                             title: 'For Devs',
                             collapsible: true,
                             children: [
