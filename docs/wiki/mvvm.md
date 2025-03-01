@@ -8,6 +8,6 @@ Ingame Info Reborn emphasizes **View** and **ViewModel** and doesn't incorporate
 
 ## For Ingame Info Reborn
 - View
-    - You'll link to a ixml file here to define the gui layout
+    - You'll link to a IXML file here to define the gui layout
 - ViewModel
     - You'll bind data in View and update variables here
