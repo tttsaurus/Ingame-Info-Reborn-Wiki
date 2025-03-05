@@ -11,3 +11,4 @@ Ingame Info Reborn emphasizes **View** and **ViewModel** and doesn't incorporate
     - You'll link to a IXML file here to define the gui layout
 - ViewModel
     - You'll bind data in View and update variables here
+    - It's more like ViewModel + Model

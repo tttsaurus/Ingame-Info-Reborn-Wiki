@@ -1,5 +1,5 @@
 ---
-title: IXML Specification
+title: IXML Introduction
 ---
 
 IXML is a modified XML format for Ingame Info Reborn gui layout specification.
@@ -72,7 +72,7 @@ You don't have to know too much about style properties to create your IXML files
 </Group>
 ```
 
-- Firstly, you define some settings, like `debug = false`, `focused = false`. However, `debug` and `focused` are set to `false`. Usually, you don't have to use `<Def>` for your gui.
+- Firstly, you define some settings, like `debug = false`, `focused = false`. However, `debug` and `focused` are set to `false` by default. Usually, you don't have to use `<Def>` for your gui.
   ```xml
   <Def debug = false focused = false>
   ```
@@ -92,3 +92,7 @@ You don't have to know too much about style properties to create your IXML files
   </Group>
   ```
 
+- Finally, a text field. Notice: `uid` is just an identifier that helps you to bind data in ViewModel
+  ```xml
+  <Text uid = "biome">
+  ```

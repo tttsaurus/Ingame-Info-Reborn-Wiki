@@ -41,7 +41,7 @@ module.exports = {
                             path: '/wiki/mvvm'
                         },
                         {
-                             title: 'IXML Specification',
+                             title: 'IXML Introduction',
                              path: '/wiki/ixml'
                         },
                         {
