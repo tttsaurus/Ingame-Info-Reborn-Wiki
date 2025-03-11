@@ -45,6 +45,40 @@ module.exports = {
                              path: '/wiki/ixml'
                         },
                         {
+                             title: 'Classes',
+                             collapsible: true,
+                             children: [
+                                 {
+                                     title: 'Element Related',
+                                     collapsible: true,
+                                     children: [
+                                         {
+                                             title: 'Element',
+                                             path: '/wiki/classes/element/element'
+                                         }
+                                     ]
+                                 },
+                                 {
+                                     title: 'Layout Related',
+                                     collapsible: true,
+                                     children: [
+                                         {
+                                             title: 'Alignment',
+                                             path: '/wiki/classes/layout/alignment'
+                                         },
+                                         {
+                                             title: 'Padding',
+                                             path: '/wiki/classes/layout/padding'
+                                         },
+                                         {
+                                             title: 'Pivot',
+                                             path: '/wiki/classes/layout/pivot'
+                                         }
+                                     ]
+                                 }
+                             ]
+                        },
+                        {
                             title: 'For Devs',
                             collapsible: true,
                             children: [
