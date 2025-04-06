@@ -5,7 +5,7 @@ title: Spotify Integration
 ## Setup
 
 A config file example is as follows
-```cfg
+```yaml
 spotify {
     # Whether to enable the whole integration module [default: false]
     B:"Enable Spotify Integration"=true
@@ -47,7 +47,9 @@ spotify {
 
 ## IXML Config
 
-Open `./config/ingameinfo/spotify.ixml`
+Open `./config/ingameinfo/spotify.ixml`[^1]
+
+[^1]: go to [IXML Introduction](/wiki/ixml.html) for details
 
 ```xml
 <Def debug = false>
@@ -56,4 +58,8 @@ Open `./config/ingameinfo/spotify.ixml`
 </Group>
 ```
 
-Modify `alignment` and `pivot` to modify the overall layout.
+Modify `alignment`[^2] and `pivot`[^3] to modify the overall layout.
+You can run the command `/igirefresh spotify` in-game to see the changes you made.
+
+[^2]: go to [Alignment](/wiki/classes/layout/alignment.html) for details
+[^3]: go to [Pivot](/wiki/classes/layout/pivot.html) for details

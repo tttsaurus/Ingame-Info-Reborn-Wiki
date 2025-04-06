@@ -99,6 +99,10 @@ module.exports = {
                                         {
                                             title: 'ZenScript Setup',
                                             path: '/wiki/dev/zs/setup'
+                                        },
+                                        {
+                                            title: 'Example #1',
+                                            path: '/wiki/dev/zs/example1'
                                         }
                                     ]
                                 }
