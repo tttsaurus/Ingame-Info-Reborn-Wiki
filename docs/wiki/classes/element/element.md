@@ -2,12 +2,12 @@
 title: Element
 ---
 
-Abstract type
+> Abstract type
 
 - With style properties:
-  - [String] uid
-  - [[Padding](/wiki/classes/layout/padding.html)] padding
-  - [String] backgroundStyle
-  - [[Pivot](/wiki/classes/layout/pivot.html)] pivot
-  - [[Alignment](/wiki/classes/layout/alignment.html)] alignment
-  - [boolean] enabled
+  - **[_String_]** `uid`
+  - **[_[Padding](/wiki/classes/layout/padding.html)_]** `padding`
+  - **[_String_]** `backgroundStyle`
+  - **[_[Pivot](/wiki/classes/layout/pivot.html)_]** `pivot`
+  - **[_[Alignment](/wiki/classes/layout/alignment.html)_]** `alignment`
+  - **[_boolean_]** `enabled`
