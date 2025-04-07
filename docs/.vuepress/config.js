@@ -102,6 +102,10 @@ module.exports = {
                                         },
                                         {
                                             title: 'Example #1',
+                                            path: '/wiki/dev/zs/example2'
+                                        },
+                                        {
+                                            title: 'Example #2',
                                             path: '/wiki/dev/zs/example1'
                                         }
                                     ]

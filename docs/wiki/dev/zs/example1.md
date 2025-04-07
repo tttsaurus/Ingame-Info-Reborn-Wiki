@@ -3,7 +3,7 @@ title: Example - Bouncy Text Effect
 ---
 
 ## IXML Part
-under `./config/ingameinfo/test_ixml.ixml`
+create file `./config/ingameinfo/test_ixml.ixml`
 ```xml
 <AnimText uid = "myUid">
 ```
