@@ -75,7 +75,11 @@ module.exports = {
                                              path: '/wiki/classes/layout/pivot'
                                          }
                                      ]
-                                 }
+                                 },
+                                 {
+                                      title: 'Event Center',
+                                      path: '/wiki/classes/eventcenter'
+                                 },
                              ]
                         },
                         {
