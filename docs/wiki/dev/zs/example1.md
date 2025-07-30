@@ -3,7 +3,7 @@ title: Example - Bouncy Text Effect
 ---
 
 ## IXML Part
-create file `./config/ingameinfo/test_ixml.ixml`
+create file `./config/ingameinfo/ixml/test_ixml.ixml`
 ```xml
 <AnimText uid = "myUid">
 ```
@@ -17,17 +17,20 @@ import mods.ingameinfo.mvvm.View;
 import mods.ingameinfo.mvvm.Mvvm;
 import mods.ingameinfo.Types;
 import mods.ingameinfo.igievent.EventCenter;
-import mods.ingameinfo.gui.IgiGuiManager;
-import mods.ingameinfo.event.IgiGuiInitEvent;
 import mods.ingameinfo.animation.text.TextAnimDef;
 import mods.ingameinfo.animation.SmoothDamp;
+import mods.ingameinfo.event.IgiRuntimeEntryPointEvent;
 import crafttweaker.util.Math;
 
-Mvvm.define("test");
+events.onIgiRuntimeEntryPoint(function(event as IgiRuntimeEntryPointEvent)
+{
+    event.initPhase.openGuiOnStartup("test");
+});
 
+Mvvm.define("test");
 View.setIxmlFileName("test_ixml");
 
-var myUidText = ViewModel.registerReactiveObject("myUidText", Types.String, "myUid", "text", true);
+var myUidText = ViewModel.registerReactiveObject("myUidText", Types.String, "myUid", "text", true, true);
 var myUidAnimDef = ViewModel.registerReactiveObject("myUidAnimDef", Types.TextAnimDef, "myUid", "animDef", true);
 
 ViewModel.setStartAction(function(this0)
@@ -58,12 +61,5 @@ ViewModel.setStartAction(function(this0)
     }));
 });
 ```
-```javascript
-import mods.ingameinfo.gui.IgiGuiManager;
-import mods.ingameinfo.event.IgiGuiInitEvent;
 
-events.onIgiGuiInit(function(event as IgiGuiInitEvent)
-{
-    IgiGuiManager.openGui("test");
-});
-```
+![Image](/Ingame-Info-Reborn-Wiki/wiki/dev_zs_example_1.png)
