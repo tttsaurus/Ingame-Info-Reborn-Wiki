@@ -55,6 +55,82 @@ module.exports = {
                                          {
                                              title: 'Element',
                                              path: '/wiki/classes/element/element'
+                                         },
+                                         {
+                                             title: 'ElementGroup',
+                                             path: '/wiki/classes/element/element_group'
+                                         },
+                                         {
+                                             title: 'SizedGroup',
+                                             path: '/wiki/classes/element/sized_group'
+                                         },
+                                         {
+                                             title: 'HorizontalGroup',
+                                             path: '/wiki/classes/element/horizontal_group'
+                                         },
+                                         {
+                                             title: 'VerticalGroup',
+                                             path: '/wiki/classes/element/vertical_group'
+                                         },
+                                         {
+                                             title: 'Button',
+                                             path: '/wiki/classes/element/button'
+                                         },
+                                         {
+                                             title: 'DraggableContainerGroup',
+                                             path: '/wiki/classes/element/draggable_container_group'
+                                         },
+                                         {
+                                             title: 'DraggableGroup',
+                                             path: '/wiki/classes/element/draggable_group'
+                                         },
+                                         {
+                                             title: 'EmptyBlock',
+                                             path: '/wiki/classes/element/empty_block'
+                                         },
+                                         {
+                                             title: 'Image',
+                                             path: '/wiki/classes/element/image'
+                                         },
+                                         {
+                                             title: 'UrlImage',
+                                             path: '/wiki/classes/element/url_image'
+                                         },
+                                         {
+                                             title: 'Interactable',
+                                             path: '/wiki/classes/element/interactable'
+                                         },
+                                         {
+                                             title: 'Item',
+                                             path: '/wiki/classes/element/item'
+                                         },
+                                         {
+                                             title: 'ProgressBar',
+                                             path: '/wiki/classes/element/progress_bar'
+                                         },
+                                         {
+                                             title: 'Separator',
+                                             path: '/wiki/classes/element/separator'
+                                         },
+                                         {
+                                             title: 'Sized',
+                                             path: '/wiki/classes/element/sized'
+                                         },
+                                         {
+                                             title: 'Slot',
+                                             path: '/wiki/classes/element/slot'
+                                         },
+                                         {
+                                             title: 'Text',
+                                             path: '/wiki/classes/element/text'
+                                         },
+                                         {
+                                             title: 'SlidingText',
+                                             path: '/wiki/classes/element/sliding_text'
+                                         },
+                                         {
+                                             title: 'AnimText',
+                                             path: '/wiki/classes/element/anim_text'
                                          }
                                      ]
                                  },

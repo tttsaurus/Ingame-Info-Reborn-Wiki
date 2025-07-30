@@ -4,8 +4,6 @@ title: Java Setup
 
 For forge gradle
 ```java
-// v1.0.0
-implementation fg.deobf("curse.maven:ingame-info-reborn-1171541:6212133")
-// v1.1.0
-implementation fg.deobf("curse.maven:ingame-info-reborn-1171541:6390015")
+// v1.2.2
+compileOnly fg.deobf("curse.maven:ingame-info-reborn-1171541:6810318")
 ```

@@ -34,9 +34,7 @@ To illustrate, there are abstract `Element` child classes (marked with `*`) and 
 You _**can only**_ use _serviceable elements_ (which are _solid implementations_) in ixml files.
 
 ## Element
-What is an `Element`
-- It contains several style properties that determine visuals and other important stuff
-  - such as `uid`, `width`, `height`
+Firstly, what is an `Element`? It contains several style properties that determine visuals and other layout-related properties such as `uid`, `width`, `height`.
 
 And that's it. `Element` is basically the most fundamental and simple thing in gui layout specification.
 
@@ -44,7 +42,7 @@ There is also a crucial child class of `Element` called `ElementGroup`
 which is the key to form the tree structure and helps you to define flexible gui layout.
 
 `ElementGroup` literally groups `Element` as it acts like a parent node and contains other `Element` nodes.
-Of course, you can have nested `ElementGroup` as it is technically a _tree_.
+Of course, you can nest `ElementGroup` as our gui is a _tree_.
 
 ## Style Property
 e.g. here is a style property from `Sized`
