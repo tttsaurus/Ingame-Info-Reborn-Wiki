@@ -15,7 +15,7 @@ spotify {
     # and it's not recommended for you to share your client id 
     # Guide: you have to create a spotify app to get client id & secrete 
     # https://developer.spotify.com/documentation/web-api/concepts/apps 
-    # Redirect URI should be set to https://127.0.0.1:8888 for this mod to listen [default: ]
+    # Redirect URI must be set to http://127.0.0.1:8888 for this mod to listen [default: ]
     S:"Spotify Client Id"=██████████████████████
 
     # Input client secret of your spotify app 
@@ -33,7 +33,7 @@ spotify {
 ```
 
 - This integration depends on the Spotify Web API, so it only works when you are connected to the Internet.
-- You have to register your own spotify app first and then input the client id & secret to the config file to allow the Web API to function properly ([About Spotify App](https://developer.spotify.com/documentation/web-api/concepts/apps)). By the way, Redirect URI _**must be**_ set to `https://127.0.0.1:8888` for this mod to listen.<br><br>Specific Spotify App config is as follows
+- You have to register your own spotify app first and then input the client id & secret to the config file to allow the Web API to function properly ([About Spotify App](https://developer.spotify.com/documentation/web-api/concepts/apps)). By the way, Redirect URI _**must be**_ set to `http://127.0.0.1:8888` for this mod to listen.<br><br>Specific Spotify App config is as follows
   ![Image](/Ingame-Info-Reborn-Wiki/wiki/spotify1.png)
   
 1. Input the command `#spotify-oauth` to the chat to authorize your spotify app.
